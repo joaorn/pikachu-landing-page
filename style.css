@@ -97,7 +97,7 @@ footer{
     }
 
     main{
-    grid-template-columns: 1fr;      
+        grid-template-columns: 1fr;      
     }
 
     .pikachu-image{
@@ -116,15 +116,14 @@ footer{
     }
 
     .action{
-    grid-row: 2;
-    grid-column: 1;
-    place-self: end center;  
+        grid-row: 2;
+        grid-column: 1;
+        place-self: end center;  
     }
 
     footer{
     display: none;
     }
-
 }
 
 
@@ -132,20 +131,21 @@ footer{
 /*MOBILE*/
 @media screen and (max-width:640px){
     .pikachu-image{
-    width: 90vw;
-    transform: translate(-50%, -50%);
+        width: 90vw;
+        transform: translate(-50%, -50%);
     }
 
     .title{
-    transform: translate(30%);
+        place-self: start center;
     }
+    
 
     .description__text{
-    display: none;
+        display: none;
     }
 
     .action{
-    width: 100%;
+        width: 100%;
     }
 
 }
